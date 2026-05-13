@@ -5,17 +5,17 @@ const memories = [
   {
     title: "Title 1",
     text: "lorem ipsum dolor.",
-    image: "/images/",
+    image: "/images/birthday.webp",
   },
   {
     title: "Title 2",
     text: "lorem ipsum dolor.",
-    image: "/images/",
+    image: "/images/birthday.webp",
   },
   {
     title: "Title 3",
     text: "lorem ipsum dolor.",
-    image: "/images/",
+    image: "/images/birthday.webp",
   },
 ];
 

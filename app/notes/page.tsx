@@ -79,7 +79,7 @@ export default function NotesPage() {
           <div className="mt-8 overflow-hidden rounded-[2rem] border border-[#f1dede] bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
             <div className="relative h-[300px] w-full overflow-hidden sm:h-[420px]">
               <Image
-                src="/images/"
+                src="/images/birthday.webp"
                 alt="A funny hidden photo of ABC"
                 fill
                 sizes="(max-width: 768px) 100vw, 700px"

@@ -36,7 +36,7 @@ export default function Home() {
           <div className="overflow-hidden rounded-[2rem] border border-[#f1dede] bg-white shadow-sm">
             <div className="relative h-[340px] w-full sm:h-[420px] md:h-[620px]">
               <Image
-                src="/images/"
+                src="/images/birthday.webp"
                 alt=""
                 fill
                 sizes="(max-width: 768px) 100vw, 45vw"

@@ -70,7 +70,7 @@ export default function TimelinePage() {
             <div className="overflow-hidden rounded-[2rem] border border-[#f1dede] bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
               <div className="relative h-[340px] w-full overflow-hidden sm:h-[420px] md:h-[480px]">
                 <Image
-                  src="/images/"
+                  src="/images/birthday.webp"
                   alt=""
                   fill
                   sizes="(max-width: 768px) 100vw, 40vw"
