@@ -21,7 +21,10 @@ export default function ProgressBar() {
   const progress = ((safeIndex + 1) / steps.length) * 100;
 
   return (
-    <div className="sticky top-0 z-40 border-b border-[#f1dede] bg-white/75 backdrop-blur">
+    <nav
+      aria-label="Birthday story chapters"
+      className="sticky top-0 z-40 border-b border-[#f1dede] bg-white/85 backdrop-blur"
+    >
       <div className="mx-auto max-w-6xl px-4 py-3">
         <div className="mb-2 flex items-center justify-between gap-4">
           <p className="text-xs uppercase tracking-[0.25em] text-[#b07a7a]">
@@ -32,6 +35,11 @@ export default function ProgressBar() {
 
         <div className="h-2 w-full overflow-hidden rounded-full bg-[#f7e7e7]">
           <div
+            role="progressbar"
+            aria-label="Story progress"
+            aria-valuemin={1}
+            aria-valuemax={steps.length}
+            aria-valuenow={safeIndex + 1}
             className="h-full rounded-full bg-[#e7bcbc] transition-all duration-500"
             style={{ width: `${progress}%` }}
           />
@@ -45,6 +53,7 @@ export default function ProgressBar() {
               <Link
                 key={step.path}
                 href={step.path}
+                aria-current={isActive ? "page" : undefined}
                 className={`shrink-0 rounded-full px-3 py-1.5 text-xs transition duration-300 ${
                   isActive
                     ? "bg-[#e7bcbc] text-[#4a2f2f] shadow-sm"
@@ -57,6 +66,6 @@ export default function ProgressBar() {
           })}
         </div>
       </div>
-    </div>
+    </nav>
   );
 }

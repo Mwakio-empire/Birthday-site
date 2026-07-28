@@ -8,20 +8,19 @@ const questions = [
     question: "Who is this whole little website made for?",
     options: [
       {
-        text: "(name)",
+        text: "Amara",
         correct: true,
-        message: "Correct — obviously you know this story well ",
+        message: "Correct - this whole little world is for Amara.",
       },
       {
-        text: "Option 2",
+        text: "The cake",
         correct: false,
-        message: "personalize to your liking",
+        message: "A good guess, but the cake is only a supporting character.",
       },
       {
-        text: "Option 3",
+        text: "The photographer",
         correct: false,
-        message:
-          "personalize to your liking",
+        message: "Not this time. Try the person whose memories fill every page.",
       },
     ],
   },
@@ -29,21 +28,19 @@ const questions = [
     question: "What kind of vibe does this site have?",
     options: [
       {
-        text: "Option 1",
+        text: "A rushed group chat message",
         correct: false,
-        message:
-          "personalize to your liking",
+        message: "That would be quicker, but not nearly as memorable.",
       },
       {
-        text: "Option 2",
+        text: "Warm, personal and a little playful",
         correct: true,
-        message: "personalize to your liking.",
+        message: "Exactly. A birthday gift should feel like the person receiving it.",
       },
       {
-        text: "Option 3",
+        text: "A formal work presentation",
         correct: false,
-        message:
-          "personalize to your liking.",
+        message: "Definitely not. Birthdays need a little more heart than that.",
       },
     ],
   },
@@ -51,21 +48,19 @@ const questions = [
     question: "What do I want you to feel today?",
     options: [
       {
-        text: "Option 1",
-        correct: false,
-        message:
-          "personalize to your liking",
-      },
-      {
-        text: "Option 2",
+        text: "Seen and celebrated",
         correct: true,
-        message: "personalize to your liking",
+        message: "That is the whole point: to make one person feel completely remembered.",
       },
       {
-        text: "Option 3",
+        text: "Slightly confused",
         correct: false,
-        message:
-          "personalize to your liking",
+        message: "Only by the quiz for a moment. Try again.",
+      },
+      {
+        text: "Ready to check email",
+        correct: false,
+        message: "The inbox can wait. There is one more surprise ahead.",
       },
     ],
   },
@@ -130,7 +125,7 @@ export default function QuizPage() {
         </h1>
 
         <p className="mt-6 text-center leading-8 text-[#7a5c5c]">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Pick the answer that best matches this little birthday story.
         </p>
 
         <div className="mt-10">
@@ -166,7 +161,7 @@ export default function QuizPage() {
 
                     {showCorrectTag && (
                       <span className="rounded-full bg-[#f3d7e2] px-3 py-1 text-xs font-medium text-[#7a4e60]">
-                        ✓ Correct
+                        Correct
                       </span>
                     )}
 

@@ -3,32 +3,32 @@ import Link from "next/link";
 
 const events = [
   {
-    title: "At ABC",
-    text: "Write whatever will make her special.usiniulize hiyo I already gave u the code.",
+    title: "The first hello",
+    text: "A perfectly ordinary moment that became important only because it was the beginning.",
   },
   {
-    title: "Title 2",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem.",
+    title: "The conversation that ran late",
+    text: "One story became another, the clock stopped mattering and friendship started feeling easy.",
   },
   {
-    title: "Title 3",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem.",
+    title: "Our first adventure",
+    text: "A day of wrong turns, too many photos and the kind of laughter that stays with you.",
   },
   {
-    title: "Title 4",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem.",
+    title: "The difficult season",
+    text: "You showed up with patience and proved that care is often made of small, consistent things.",
   },
   {
-    title: "Title 5",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem..",
+    title: "A thousand inside jokes",
+    text: "Most of them make no sense to anyone else. That is exactly why they belong here.",
   },
   {
-    title: "Title 6",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem.",
+    title: "Watching you grow",
+    text: "There is something beautiful about seeing you become more certain of who you are.",
   },
   {
-    title: "Title 6",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem.",
+    title: "This birthday",
+    text: "Another chapter begins, with so much still waiting to surprise you.",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function TimelinePage() {
             Little chapters of us
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#7a5c5c]">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid architecto dolor dolores ea expedita fugiat harum itaque iusto, laborum nisi nobis possimus ratione, reiciendis saepe sapiente suscipit totam voluptatum?
+            A personalized timeline turns shared moments into a story worth returning to.
           </p>
         </div>
 
@@ -70,11 +70,11 @@ export default function TimelinePage() {
             <div className="overflow-hidden rounded-[2rem] border border-[#f1dede] bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
               <div className="relative h-[340px] w-full overflow-hidden sm:h-[420px] md:h-[480px]">
                 <Image
-                  src="/images/birthday.webp"
-                  alt=""
+                  src="/images/amara-birthday.png"
+                  alt="Fictional birthday celebrant Amara smiling beside her cake"
                   fill
                   sizes="(max-width: 768px) 100vw, 40vw"
-                  priority
+                  loading="eager"
                   className="object-cover transition duration-500 hover:scale-105"
                 />
               </div>
@@ -83,7 +83,7 @@ export default function TimelinePage() {
                   A favorite frame
                 </p>
                 <p className="mt-3 text-xl leading-8 text-[#7a5c5c]">
-                  A whole personality in one picture.
+                  The kind of joy a photograph keeps long after the candles go out.
                 </p>
               </div>
             </div>
