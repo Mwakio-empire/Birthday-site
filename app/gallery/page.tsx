@@ -3,19 +3,19 @@ import Link from "next/link";
 
 const memories = [
   {
-    title: "Title 1",
-    text: "lorem ipsum dolor.",
-    image: "/images/birthday.webp",
+    title: "The birthday glow",
+    text: "That quiet smile right before the candles were lit.",
+    image: "/images/amara-birthday.png",
   },
   {
-    title: "Title 2",
-    text: "lorem ipsum dolor.",
-    image: "/images/birthday.webp",
+    title: "A room full of warmth",
+    text: "Soft flowers, candlelight and the people who make life sweeter.",
+    image: "/images/amara-birthday.png",
   },
   {
-    title: "Title 3",
-    text: "lorem ipsum dolor.",
-    image: "/images/birthday.webp",
+    title: "One wish for the year ahead",
+    text: "More joy, more courage and more reasons to celebrate yourself.",
+    image: "/images/amara-birthday.png",
   },
 ];
 
@@ -28,10 +28,10 @@ export default function GalleryPage() {
             Memory Book
           </p>
           <h1 className="font-heading text-4xl font-bold text-[#5c3b3b] md:text-6xl">
-            A few beautiful little memories
+            A few beautiful little moments
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#7a5c5c]">
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            A small gallery can hold the photographs that mean the most to you both.
           </p>
         </div>
 
@@ -47,6 +47,7 @@ export default function GalleryPage() {
                   alt={memory.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
+                  loading="eager"
                   className="object-cover transition duration-500 hover:scale-105"
                 />
               </div>

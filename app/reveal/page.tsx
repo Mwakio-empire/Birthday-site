@@ -7,23 +7,23 @@ import { useState } from "react";
 const letterSteps = [
   {
     title: "For your birthday",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem.",
+    text: "I hope today feels spacious enough for joy, loud enough for laughter and gentle enough for you to notice how loved you are.",
   },
   {
     title: "For how it started",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem.",
+    text: "Some people arrive quietly and still change the atmosphere of a life. You did that without ever needing to announce it.",
   },
   {
     title: "For the memories",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem.",
+    text: "The photographs matter, but what I treasure most is everything around them: the jokes, the courage and the ordinary days made brighter.",
   },
   {
     title: "For the moments I still remember too well",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem.",
+    text: "I remember your kindness in the difficult moments and your joy in the easy ones. Both have left their mark on me.",
   },
   {
-    title: "For you, ",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem.",
+    title: "For you, Amara",
+    text: "May the year ahead bring brave beginnings, peaceful endings and plenty of beautiful stories in between. Happy birthday.",
   },
 ];
 
@@ -39,18 +39,18 @@ export default function RevealPage() {
           <div className="overflow-hidden rounded-[2rem] border border-[#f1dede] bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
             <div className="relative h-[340px] w-full overflow-hidden sm:h-[420px] md:h-[620px]">
               <Image
-                src="/images/birthday.webp"
-                alt=""
+                src="/images/amara-birthday.png"
+                alt="Fictional birthday celebrant Amara smiling beside her cake"
                 fill
                 sizes="(max-width: 768px) 100vw, 45vw"
-                priority
+                loading="eager"
                 className="object-cover transition duration-500 hover:scale-105"
               />
             </div>
 
             <div className="p-6">
               <p className="font-handwritten text-2xl text-[#b07a7a]">
-                For Her
+                For Amara
               </p>
               <p className="mt-3 text-xl leading-8 text-[#7a5c5c]">
                 Soft, beautiful, unforgettable.
@@ -66,7 +66,7 @@ export default function RevealPage() {
             </p>
 
             <h1 className="font-heading text-4xl font-bold leading-tight text-[#5c3b3b] md:text-6xl">
-              For (name), with love
+              For Amara, with love
             </h1>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#7a5c5c]">
@@ -123,10 +123,12 @@ export default function RevealPage() {
           </div>
           <div className="mt-10 text-center">
             <p className="font-handwritten text-3xl text-[#b07a7a]">
-              Happy Birthday,(name)
+              Happy Birthday, Amara
             </p>
             <p className="mx-auto mt-3 max-w-2xl text-base leading-8 text-[#7a5c5c] md:text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deserunt distinctio eligendi in labore nemo saepe vel! A facilis, hic id incidunt, necessitatibus quasi recusandae reiciendis repellat sapiente, sequi temporibus.
+              This fictional story is only a sample. A real birthday site can be
+              written around your own photos, private jokes, favorite music and the
+              moments that belong to you.
             </p>
           </div>
         </div>

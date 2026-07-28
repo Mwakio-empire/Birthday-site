@@ -5,11 +5,11 @@ import Link from "next/link";
 import { useState } from "react";
 
 const notes = [
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem.",
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem..",
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem.",
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem.",
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corporis cum cumque dicta eius facilis fuga laudantium libero maxime minima minus necessitatibus officia porro quod rerum tenetur totam ut, voluptatem.",
+  "You make people feel at home without even trying. That is one of your quiet superpowers.",
+  "The way you keep going, even when nobody sees the effort, deserves more credit than you give yourself.",
+  "Your laugh has rescued more difficult days than you probably realize.",
+  "I hope this year gives back some of the kindness you so naturally give to everyone else.",
+  "No matter how much life changes, I will always be grateful that our stories crossed.",
 ];
 
 export default function NotesPage() {
@@ -32,7 +32,7 @@ export default function NotesPage() {
             Hidden Notes
           </p>
           <h1 className="font-heading text-4xl font-bold text-[#5c3b3b] md:text-6xl">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Five things I hope you never forget
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#7a5c5c]">
             Just a few  thoughts for you — tap each
@@ -79,8 +79,8 @@ export default function NotesPage() {
           <div className="mt-8 overflow-hidden rounded-[2rem] border border-[#f1dede] bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
             <div className="relative h-[300px] w-full overflow-hidden sm:h-[420px]">
               <Image
-                src="/images/birthday.webp"
-                alt="A funny hidden photo of ABC"
+                src="/images/amara-birthday.png"
+                alt="Fictional birthday celebrant Amara with her cake"
                 fill
                 sizes="(max-width: 768px) 100vw, 700px"
                 className="object-cover transition duration-500 hover:scale-105"
@@ -92,7 +92,7 @@ export default function NotesPage() {
                 Secret Extra
               </p>
               <p className="mt-3 text-lg leading-8 text-[#7a5c5c]">
-                You may not like this one, but I still had to hide it in here
+                A final favorite, hidden here for the people curious enough to look.
 
               </p>
             </div>

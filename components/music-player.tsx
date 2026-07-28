@@ -47,8 +47,10 @@ export default function MusicPlayer() {
       />
 
       <button
+        type="button"
         onClick={toggleAudio}
-        className="fixed right-4 top-4 z-50 flex items-center gap-3 rounded-full border border-[#ecd3d3] bg-white/90 px-4 py-3 text-sm font-medium text-[#6d4b4b] shadow-sm backdrop-blur transition hover:scale-105"
+        className="fixed bottom-4 right-4 z-50 flex items-center rounded-full border border-[#ecd3d3] bg-white/95 p-2 text-sm font-medium text-[#6d4b4b] shadow-md backdrop-blur transition hover:scale-105 sm:gap-3 sm:px-4 sm:py-3"
+        aria-label={isPlaying ? "Pause background music" : "Play background music"}
       >
         <span
           className={`flex h-10 w-10 items-center justify-center rounded-full bg-[#f7dede] text-lg ${
@@ -58,8 +60,8 @@ export default function MusicPlayer() {
           {isPlaying ? "♫" : "♡"}
         </span>
 
-        <span className="pr-1">
-          {isPlaying ? "Playing " : "Play 🎶"}
+        <span className="hidden pr-1 sm:inline">
+          {isPlaying ? "Playing" : "Play music"}
         </span>
       </button>
     </>

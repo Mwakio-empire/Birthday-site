@@ -1,52 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# A Birthday Story
 
-## Getting Started
+![A Birthday Story personalized website preview](public/images/social-preview.png)
 
-First, run the development server:
+A polished, fictional demo of a personalized birthday website. It turns photos,
+shared memories, music and small interactive surprises into a gift someone can
+open one page at a time.
+
+> The celebrant and story in this repository are fictional. A customer version
+> should use content supplied with the relevant people's permission.
+
+## What the experience includes
+
+- A personal welcome page and birthday note
+- A responsive memory gallery
+- A chapter-based story timeline
+- A playful interactive quiz
+- Hidden notes and a secret photo reveal
+- A step-by-step final birthday letter
+- Optional background music with visible controls
+- A clear path for requesting a custom version
+
+## Built with
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Run it locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000), then follow the story from the
+home page.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+For production, set `NEXT_PUBLIC_SITE_URL` to the public site origin (for example,
+`https://your-site.example`) so canonical social metadata uses the deployed URL.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Production checks
 
-## Learn More
+```bash
+npm run lint
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Custom birthday websites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Want a version built around your own photographs, story, music and inside jokes?
+[Request one from Michael on WhatsApp](https://wa.me/254714819427?text=Hi%20Michael%2C%20I%20would%20like%20a%20custom%20birthday%20website).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Privacy notes
 
-## Deploy on Vercel
+- Get permission before publishing personal photos, private messages or recordings.
+- Do not commit private customer media to a public repository.
+- Customer-specific sites should be access-controlled or marked `noindex` when they
+  are not intended for public search.
+- Replace the demo content rather than mixing customer details into this branch.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-## Screenshots
-
-![Home page screenshot](public/images/1.png)
-
-![Home page screenshot](public/images/2.png)
-
-![Home page screenshot](public/images/3.png)
-
-![Home page screenshot](public/images/4.png)
-
-![Home page screenshot](public/images/5.png)
-
-![Home page screenshot](public/images/6.png)
-
-![Home page screenshot](public/images/7.png)
+Created by [Michael Mwakio](https://github.com/Mwakio-empire).
