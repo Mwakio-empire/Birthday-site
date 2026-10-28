@@ -50,7 +50,7 @@ npm run build
 ## Custom birthday websites
 
 Want a version built around your own photographs, story, music and inside jokes?
-[Request one from Michael on WhatsApp](https://wa.me/254714819427?text=Hi%20Michael%2C%20I%20would%20like%20a%20custom%20birthday%20website).
+[Request one from Me on WhatsApp](https://wa.me/254714819427?text=Hi%20Michael%2C%20I%20would%20like%20a%20custom%20birthday%20website).
 
 ## Privacy notes
 
