@@ -1,6 +1,6 @@
 # A Birthday Story
 
-![A Birthday Story personalized website preview](public/images/social-preview.png)
+
 
 A polished, fictional demo of a personalized birthday website. It turns photos,
 shared memories, music and small interactive surprises into a gift someone can
